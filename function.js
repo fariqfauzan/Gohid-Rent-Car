@@ -2,32 +2,32 @@ var hargasewa = 0;
 var jumlahukuran = 0;
 
 function hitungharga() {
-  if (kategori.value == 'Pajero') {
+  if (kategori.value == 'Lancer') {
     hargasewa = 200000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Kijang') {
+  } else if (kategori.value == 'Civic') {
     hargasewa = 100000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Avanza') {
+  } else if (kategori.value == 'Jazz') {
     hargasewa = 150000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Toyota') {
+  } else if (kategori.value == 'Alphard') {
     hargasewa = 500000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Daihatsu') {
+  } else if (kategori.value == 'Classy') {
     hargasewa = 750000;
     jumlahukuran = ukuran.value;
 
     harga.value = jumlahukuran * hargasewa;
-  } else if (kategori.value == 'Honda') {
+  } else if (kategori.value == 'RX7') {
     hargasewa = 1500000;
     jumlahukuran = ukuran.value;
 
